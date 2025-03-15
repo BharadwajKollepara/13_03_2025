@@ -1,0 +1,50 @@
+.cart-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.cart-item div {
+  text-align: left;
+}
+
+.cart-item button {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background: darkred;
+}
+
+.cart-back {
+  background: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-bottom: 10px;
+}
+
+.cart-back:hover {
+  background: #0056b3;
+}
