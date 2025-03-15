@@ -23,7 +23,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h1>E-cart Application</h1>
+      <h1>E-Commerce Application</h1>
       <div className="login-box">
         <h2>Login</h2>
         {error && <p className="error-message">{error}</p>}
